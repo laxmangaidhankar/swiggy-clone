@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+header {
+    background-color: #FF5200;
+    width: 100%;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content img {
+    width: 160px;
+    height: auto;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Get App Button */
+.get-app {
+    padding: 8px 16px;
+    border: 1.5px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Sign In Button */
+.sign-in {
+    padding: 12px 24px;
+    background-color: #000;
+    border-radius: 8px;
+    font-weight: 600;
+}
