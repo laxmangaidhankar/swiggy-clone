@@ -276,3 +276,94 @@ header {
     border-radius:10px;
     
 }
+
+.footer-section{
+    padding:0px 248px 48px 186px;
+    background-color:rgb(240, 240, 245);
+    min-height:100px;
+    max-width:100%;
+    display:grid;
+grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.swiggy-logo-section{
+    max-width:150px;
+    min-height:100px;
+    display:flex;
+
+    flex-direction:column;
+    margin-top:48px;
+}
+
+.footer-text{
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.company-section{
+     max-width:100px;
+    min-height:100px;
+    background-image:cover;
+    display:flex;
+
+    flex-direction:column;
+    margin-top:48px;
+
+}
+.company-section ul{
+    list-style:none;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    
+}
+.contact-us-section{
+    margin-top:48px;
+}
+.contact-us-section ul{
+    list-style:none;
+     font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    
+}
+.list{
+    margin-top:40px;
+}
+
+.available-in-section{
+    margin-top:48px;
+
+}
+.available-in-section ul{
+    list-style:none;
+     font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.life-at-swiggy{
+    margin-top:48px;
+}
+
+.life-at-swiggy ul{
+       list-style:none;
+     font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
