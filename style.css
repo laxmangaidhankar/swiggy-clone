@@ -157,24 +157,98 @@ header {
     z-index: 1000;
 }
 .our-best-food{
-    padding:50px;
+    padding:100px 150px 50px 150px;
+    
+
 }
 .our-best-food-text{
     display:flex;
     justify-content:start;
     align-items:center;
+    gap:50px 50px;
 }
-.food-card{
-    display:flex;
-    justify-content:start;
-    flex-direction:row;
-    align-items:center;
+.food-card {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+    gap: 16px 24px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+}
+.food-card::-webkit-scrollbar {
+    display: none;
+}
+
+.food-card {
+    scrollbar-width: none; /* Firefox */
+}
+
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+    
+.food-card button {
+    width: 120px;
+    height: 120px;
+    background-image: url(../assets/images/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.food-card span {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+.shop-groceries {
+    padding:10px 150px 50px 150px;
     
 }
-.food-card button{
+
+.shop-groceries-text {
+    display:flex;
+    gap:50px 50px;
+    
+}
+
+
+.grocery-card{
+   display: flex;
+    
+    gap: 16px 24px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+    
+    
+}
+
+.grocery-card button{
     width:120px;
     height:120px;
-    background-image:url(../assets/images/dineout-card.png);
+    background-image:url(../assets/images/grocery.jpg);
     background-size:cover;
     border:none;
     background-color:transparent;
@@ -182,29 +256,14 @@ header {
 }
 
 
-.shop-groceries-text{
-    display:flex;
-    justify-content:start;
-    align-items:center;
-    padding:0px 50px 0px 50px;
+.grocery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
 }
-.food-cardd{
-    display:flex;
-    justify-content:start;
-    flex-direction:row;
-    align-items:center;
-    padding:50px;
-    
-}
-.food-cardd button{
-    width:120px;
-    height:120px;
-    background-image:url(../assets/images/dineout-card.png);
-    background-size:cover;
-    border:none;
-    background-color:transparent;
-    text-align:center;
-}
+
+
 .get-the-app-section {
     width: 100%;
     background-image: url(../assets/images/get-the-swiggy-app-img.png);
