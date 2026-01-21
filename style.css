@@ -156,5 +156,123 @@ header {
     width: 120px;
     z-index: 1000;
 }
+.our-best-food{
+    padding:50px;
+}
+.our-best-food-text{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+.food-card{
+    display:flex;
+    justify-content:start;
+    flex-direction:row;
+    align-items:center;
+    
+}
+.food-card button{
+    width:120px;
+    height:120px;
+    background-image:url(../assets/images/dineout-card.png);
+    background-size:cover;
+    border:none;
+    background-color:transparent;
+    text-align:center;
+}
 
 
+.shop-groceries-text{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    padding:0px 50px 0px 50px;
+}
+.food-cardd{
+    display:flex;
+    justify-content:start;
+    flex-direction:row;
+    align-items:center;
+    padding:50px;
+    
+}
+.food-cardd button{
+    width:120px;
+    height:120px;
+    background-image:url(../assets/images/dineout-card.png);
+    background-size:cover;
+    border:none;
+    background-color:transparent;
+    text-align:center;
+}
+.get-the-app-section {
+    width: 100%;
+    background-image: url(../assets/images/get-the-swiggy-app-img.png);
+    background-size: cover;       /* Makes image cover entire div */
+    background-position: center;  /* Keeps center of image visible */
+    background-repeat: no-repeat; /* Avoid repeating */
+    min-height: 280px;
+}
+@media (max-width: 768px) {
+    .get-the-app-section {
+        height: 40vh;
+        background-size: contain; /* or keep cover if image is okay */
+    }
+}
+
+@media (max-width: 480px) {
+    .get-the-app-section {
+        height: 30vh;
+        background-position: top; /* focus top of image for mobile */
+    }
+}
+
+.cities-with-food-delivery{
+    margin:86px 186px 0px 186px;
+}
+
+.city-boxes-collection{
+    margin:12px 0 0 0;
+    display:grid;
+    gap:12px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content:left;
+    align-items:center;
+    text-align:center;
+    text-decoration: none;
+    
+}
+
+
+.cities-with-food-delivery a{
+    border:2px solid black;
+    background-color:transparent;
+    max-width:185px;
+    min-height:70px;
+    color:rgba(2, 6, 12, 0.75);
+    border-radius:10px;
+    padding:10px;
+    text-decoration:none;
+}
+
+.cities-with-grocery-delivery{
+    margin:86px 186px 0px 186px;
+}
+.cities-with-grocery-boxes{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-top:20px;
+    gap:10px;
+   
+}
+.cities-with-grocery-boxes a{
+    text-decoration:none;
+        border:2px solid black;
+    padding:10px;
+    text-align:center;
+    color:rgba(2, 6, 12, 0.75);
+    min-height:70px;
+    max-width:185px;
+    border-radius:10px;
+    
+}
