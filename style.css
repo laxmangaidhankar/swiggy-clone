@@ -256,8 +256,9 @@ header {
 }
 
 .cities-with-grocery-delivery{
-    margin:86px 186px 0px 186px;
+    margin:86px 186px 80px 186px;
 }
+
 .cities-with-grocery-boxes{
     display:grid;
     grid-template-columns:repeat(4, 1fr);
@@ -366,4 +367,19 @@ grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     line-height: 21px;
     letter-spacing: -0.4px;
     color: rgba(2, 6, 12, 0.6);
+}
+.download-app{
+        background-color:rgb(240, 240, 245);
+    max-width:100%;
+    min-height:100px;
+}
+.content-internal{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.content-internal h2{
+    font-size:16px;
+    font-style:bold;
+
 }
